@@ -1,0 +1,772 @@
+{
+ "format": "kizuato-re-patch/1",
+ "game": "Ikenie",
+ "lang": "en",
+ "version": "2026.11.15",
+ "created": "2026-11-15T18:53:14.340Z",
+ "title": "Ikenie - Kyouraku no Shinden — English translation",
+ "requires": "your own copy of Ikenie - Kyouraku no Shinden (Cat's Pro, 1994), PC-98 hard-disk image (.hdi / .nhd) with the IKENIE folder",
+ "credits": [
+  "Ikenie EN",
+  "Original game © 1994 Cat's Pro.",
+  "Made with Kizuato Studio"
+ ],
+ "files": [
+  {
+   "path": "IKENIE/DOR.MDR",
+   "patch": "DOR.MDR.bps",
+   "source": {
+    "size": 1401,
+    "crc32": "bf4f9bb9"
+   },
+   "target": {
+    "size": 2990,
+    "crc32": "65ea6876"
+   }
+  },
+  {
+   "path": "IKENIE/ELIL01.MDR",
+   "patch": "ELIL01.MDR.bps",
+   "source": {
+    "size": 8032,
+    "crc32": "24e2a72f"
+   },
+   "target": {
+    "size": 21878,
+    "crc32": "3dea901c"
+   }
+  },
+  {
+   "path": "IKENIE/ELIL02.MDR",
+   "patch": "ELIL02.MDR.bps",
+   "source": {
+    "size": 5123,
+    "crc32": "95ac74cb"
+   },
+   "target": {
+    "size": 18603,
+    "crc32": "c11dd7ad"
+   }
+  },
+  {
+   "path": "IKENIE/ELIL03.MDR",
+   "patch": "ELIL03.MDR.bps",
+   "source": {
+    "size": 4437,
+    "crc32": "46c3419d"
+   },
+   "target": {
+    "size": 16859,
+    "crc32": "584aa340"
+   }
+  },
+  {
+   "path": "IKENIE/ELIL04.MDR",
+   "patch": "ELIL04.MDR.bps",
+   "source": {
+    "size": 4444,
+    "crc32": "43778374"
+   },
+   "target": {
+    "size": 16589,
+    "crc32": "e6573dba"
+   }
+  },
+  {
+   "path": "IKENIE/ELIL05.MDR",
+   "patch": "ELIL05.MDR.bps",
+   "source": {
+    "size": 4321,
+    "crc32": "965afe24"
+   },
+   "target": {
+    "size": 16650,
+    "crc32": "52428f49"
+   }
+  },
+  {
+   "path": "IKENIE/END.MDR",
+   "patch": "END.MDR.bps",
+   "source": {
+    "size": 1354,
+    "crc32": "480ca6af"
+   },
+   "target": {
+    "size": 3136,
+    "crc32": "a335e815"
+   }
+  },
+  {
+   "path": "IKENIE/END01.MDR",
+   "patch": "END01.MDR.bps",
+   "source": {
+    "size": 1666,
+    "crc32": "bd2dff93"
+   },
+   "target": {
+    "size": 3249,
+    "crc32": "166e45ee"
+   }
+  },
+  {
+   "path": "IKENIE/END02.MDR",
+   "patch": "END02.MDR.bps",
+   "source": {
+    "size": 2023,
+    "crc32": "a8659553"
+   },
+   "target": {
+    "size": 3624,
+    "crc32": "31da61f0"
+   }
+  },
+  {
+   "path": "IKENIE/END03.MDR",
+   "patch": "END03.MDR.bps",
+   "source": {
+    "size": 1721,
+    "crc32": "2094d98e"
+   },
+   "target": {
+    "size": 3170,
+    "crc32": "23f8ab82"
+   }
+  },
+  {
+   "path": "IKENIE/END04.MDR",
+   "patch": "END04.MDR.bps",
+   "source": {
+    "size": 1733,
+    "crc32": "306f50d8"
+   },
+   "target": {
+    "size": 3247,
+    "crc32": "b6e06238"
+   }
+  },
+  {
+   "path": "IKENIE/END05.MDR",
+   "patch": "END05.MDR.bps",
+   "source": {
+    "size": 1581,
+    "crc32": "7606978c"
+   },
+   "target": {
+    "size": 3104,
+    "crc32": "91b31ae7"
+   }
+  },
+  {
+   "path": "IKENIE/END06.MDR",
+   "patch": "END06.MDR.bps",
+   "source": {
+    "size": 1717,
+    "crc32": "51fc5bcb"
+   },
+   "target": {
+    "size": 3237,
+    "crc32": "c27a4c9a"
+   }
+  },
+  {
+   "path": "IKENIE/END07.MDR",
+   "patch": "END07.MDR.bps",
+   "source": {
+    "size": 1618,
+    "crc32": "e5422c2d"
+   },
+   "target": {
+    "size": 3081,
+    "crc32": "e469292d"
+   }
+  },
+  {
+   "path": "IKENIE/END08.MDR",
+   "patch": "END08.MDR.bps",
+   "source": {
+    "size": 1846,
+    "crc32": "12ab374d"
+   },
+   "target": {
+    "size": 3386,
+    "crc32": "1fccb190"
+   }
+  },
+  {
+   "path": "IKENIE/INEED01.MDR",
+   "patch": "INEED01.MDR.bps",
+   "source": {
+    "size": 3742,
+    "crc32": "7199bab6"
+   },
+   "target": {
+    "size": 9815,
+    "crc32": "65409dd1"
+   }
+  },
+  {
+   "path": "IKENIE/INEED02.MDR",
+   "patch": "INEED02.MDR.bps",
+   "source": {
+    "size": 4429,
+    "crc32": "a97333ae"
+   },
+   "target": {
+    "size": 17499,
+    "crc32": "8acf21ea"
+   }
+  },
+  {
+   "path": "IKENIE/INEED03.MDR",
+   "patch": "INEED03.MDR.bps",
+   "source": {
+    "size": 4493,
+    "crc32": "d3ff2e81"
+   },
+   "target": {
+    "size": 17144,
+    "crc32": "741131d0"
+   }
+  },
+  {
+   "path": "IKENIE/INEED04.MDR",
+   "patch": "INEED04.MDR.bps",
+   "source": {
+    "size": 4160,
+    "crc32": "2b8fca79"
+   },
+   "target": {
+    "size": 16545,
+    "crc32": "d470bd36"
+   }
+  },
+  {
+   "path": "IKENIE/INEED05.MDR",
+   "patch": "INEED05.MDR.bps",
+   "source": {
+    "size": 4459,
+    "crc32": "c7bd5b3c"
+   },
+   "target": {
+    "size": 17524,
+    "crc32": "da95f500"
+   }
+  },
+  {
+   "path": "IKENIE/KIS01.MDR",
+   "patch": "KIS01.MDR.bps",
+   "source": {
+    "size": 7562,
+    "crc32": "1f104b64"
+   },
+   "target": {
+    "size": 19252,
+    "crc32": "0675cab9"
+   }
+  },
+  {
+   "path": "IKENIE/KIS02.MDR",
+   "patch": "KIS02.MDR.bps",
+   "source": {
+    "size": 6517,
+    "crc32": "d9e4ac4e"
+   },
+   "target": {
+    "size": 23313,
+    "crc32": "104ccc85"
+   }
+  },
+  {
+   "path": "IKENIE/KIS03.MDR",
+   "patch": "KIS03.MDR.bps",
+   "source": {
+    "size": 6525,
+    "crc32": "c8a9b9f4"
+   },
+   "target": {
+    "size": 23820,
+    "crc32": "f69c0ac9"
+   }
+  },
+  {
+   "path": "IKENIE/MAP11.MDR",
+   "patch": "MAP11.MDR.bps",
+   "source": {
+    "size": 2960,
+    "crc32": "47cb3e2e"
+   },
+   "target": {
+    "size": 6550,
+    "crc32": "a354a572"
+   }
+  },
+  {
+   "path": "IKENIE/MAP12.MDR",
+   "patch": "MAP12.MDR.bps",
+   "source": {
+    "size": 2908,
+    "crc32": "f7ccb19c"
+   },
+   "target": {
+    "size": 6226,
+    "crc32": "0d968e91"
+   }
+  },
+  {
+   "path": "IKENIE/MAP13.MDR",
+   "patch": "MAP13.MDR.bps",
+   "source": {
+    "size": 2911,
+    "crc32": "bb3d07d9"
+   },
+   "target": {
+    "size": 6200,
+    "crc32": "aa1d7ecd"
+   }
+  },
+  {
+   "path": "IKENIE/MAP21.MDR",
+   "patch": "MAP21.MDR.bps",
+   "source": {
+    "size": 3435,
+    "crc32": "12dd3fd7"
+   },
+   "target": {
+    "size": 7554,
+    "crc32": "7f159f68"
+   }
+  },
+  {
+   "path": "IKENIE/MAP22.MDR",
+   "patch": "MAP22.MDR.bps",
+   "source": {
+    "size": 3455,
+    "crc32": "e3e56e5d"
+   },
+   "target": {
+    "size": 7562,
+    "crc32": "b7e9f9cc"
+   }
+  },
+  {
+   "path": "IKENIE/MAP23.MDR",
+   "patch": "MAP23.MDR.bps",
+   "source": {
+    "size": 3456,
+    "crc32": "22fe3a12"
+   },
+   "target": {
+    "size": 7592,
+    "crc32": "f90eb847"
+   }
+  },
+  {
+   "path": "IKENIE/MAP31.MDR",
+   "patch": "MAP31.MDR.bps",
+   "source": {
+    "size": 2990,
+    "crc32": "107dd2b7"
+   },
+   "target": {
+    "size": 6759,
+    "crc32": "5a23cdee"
+   }
+  },
+  {
+   "path": "IKENIE/MAP32.MDR",
+   "patch": "MAP32.MDR.bps",
+   "source": {
+    "size": 3009,
+    "crc32": "ecda009a"
+   },
+   "target": {
+    "size": 6760,
+    "crc32": "0c9f990b"
+   }
+  },
+  {
+   "path": "IKENIE/MAP41.MDR",
+   "patch": "MAP41.MDR.bps",
+   "source": {
+    "size": 2970,
+    "crc32": "acabf18d"
+   },
+   "target": {
+    "size": 6347,
+    "crc32": "130156f9"
+   }
+  },
+  {
+   "path": "IKENIE/MAP42.MDR",
+   "patch": "MAP42.MDR.bps",
+   "source": {
+    "size": 3001,
+    "crc32": "8a99913e"
+   },
+   "target": {
+    "size": 6405,
+    "crc32": "c972ee50"
+   }
+  },
+  {
+   "path": "IKENIE/MAP43.MDR",
+   "patch": "MAP43.MDR.bps",
+   "source": {
+    "size": 3004,
+    "crc32": "7dddb792"
+   },
+   "target": {
+    "size": 6447,
+    "crc32": "ab46b12e"
+   }
+  },
+  {
+   "path": "IKENIE/NIINA01.MDR",
+   "patch": "NIINA01.MDR.bps",
+   "source": {
+    "size": 2715,
+    "crc32": "889e6c61"
+   },
+   "target": {
+    "size": 6184,
+    "crc32": "66ed3d37"
+   }
+  },
+  {
+   "path": "IKENIE/NIINA02.MDR",
+   "patch": "NIINA02.MDR.bps",
+   "source": {
+    "size": 6290,
+    "crc32": "e63be009"
+   },
+   "target": {
+    "size": 21761,
+    "crc32": "3586a626"
+   }
+  },
+  {
+   "path": "IKENIE/NIINA03.MDR",
+   "patch": "NIINA03.MDR.bps",
+   "source": {
+    "size": 5102,
+    "crc32": "b74da8d1"
+   },
+   "target": {
+    "size": 18396,
+    "crc32": "f4bbc666"
+   }
+  },
+  {
+   "path": "IKENIE/REI01.MDR",
+   "patch": "REI01.MDR.bps",
+   "source": {
+    "size": 3922,
+    "crc32": "93448ae7"
+   },
+   "target": {
+    "size": 9460,
+    "crc32": "a9c80e7b"
+   }
+  },
+  {
+   "path": "IKENIE/REI02.MDR",
+   "patch": "REI02.MDR.bps",
+   "source": {
+    "size": 4734,
+    "crc32": "5bc31eee"
+   },
+   "target": {
+    "size": 16678,
+    "crc32": "d3728d81"
+   }
+  },
+  {
+   "path": "IKENIE/REI03.MDR",
+   "patch": "REI03.MDR.bps",
+   "source": {
+    "size": 4615,
+    "crc32": "9c19de3e"
+   },
+   "target": {
+    "size": 15910,
+    "crc32": "1a93266a"
+   }
+  },
+  {
+   "path": "IKENIE/REI04.MDR",
+   "patch": "REI04.MDR.bps",
+   "source": {
+    "size": 6520,
+    "crc32": "a54ea685"
+   },
+   "target": {
+    "size": 20982,
+    "crc32": "5ae1bc38"
+   }
+  },
+  {
+   "path": "IKENIE/REI05.MDR",
+   "patch": "REI05.MDR.bps",
+   "source": {
+    "size": 5145,
+    "crc32": "8f6abff1"
+   },
+   "target": {
+    "size": 19080,
+    "crc32": "47939e4f"
+   }
+  },
+  {
+   "path": "IKENIE/ROOM.MDR",
+   "patch": "ROOM.MDR.bps",
+   "source": {
+    "size": 2362,
+    "crc32": "6484bbb3"
+   },
+   "target": {
+    "size": 6261,
+    "crc32": "9c830d69"
+   }
+  },
+  {
+   "path": "IKENIE/SAKU01.MDR",
+   "patch": "SAKU01.MDR.bps",
+   "source": {
+    "size": 4415,
+    "crc32": "dd196ff5"
+   },
+   "target": {
+    "size": 11325,
+    "crc32": "00f78f3b"
+   }
+  },
+  {
+   "path": "IKENIE/SAKU02.MDR",
+   "patch": "SAKU02.MDR.bps",
+   "source": {
+    "size": 3851,
+    "crc32": "89236b36"
+   },
+   "target": {
+    "size": 16872,
+    "crc32": "7ac6be2d"
+   }
+  },
+  {
+   "path": "IKENIE/SAKU03.MDR",
+   "patch": "SAKU03.MDR.bps",
+   "source": {
+    "size": 4180,
+    "crc32": "952ca219"
+   },
+   "target": {
+    "size": 18991,
+    "crc32": "7b1cd05a"
+   }
+  },
+  {
+   "path": "IKENIE/SAKU04.MDR",
+   "patch": "SAKU04.MDR.bps",
+   "source": {
+    "size": 4577,
+    "crc32": "d9b639a0"
+   },
+   "target": {
+    "size": 20893,
+    "crc32": "71f60515"
+   }
+  },
+  {
+   "path": "IKENIE/SAKU05.MDR",
+   "patch": "SAKU05.MDR.bps",
+   "source": {
+    "size": 4665,
+    "crc32": "c306171b"
+   },
+   "target": {
+    "size": 20275,
+    "crc32": "484565c3"
+   }
+  },
+  {
+   "path": "IKENIE/STAFF.MDR",
+   "patch": "STAFF.MDR.bps",
+   "source": {
+    "size": 1614,
+    "crc32": "d4490c8a"
+   },
+   "target": {
+    "size": 2978,
+    "crc32": "39b3b773"
+   }
+  },
+  {
+   "path": "IKENIE/START.MDR",
+   "patch": "START.MDR.bps",
+   "source": {
+    "size": 8589,
+    "crc32": "fae33e4c"
+   },
+   "target": {
+    "size": 8363,
+    "crc32": "725bbccf"
+   }
+  },
+  {
+   "path": "IKENIE/STHIA01.MDR",
+   "patch": "STHIA01.MDR.bps",
+   "source": {
+    "size": 7926,
+    "crc32": "2b949899"
+   },
+   "target": {
+    "size": 23233,
+    "crc32": "0d839c4a"
+   }
+  },
+  {
+   "path": "IKENIE/STHIA02.MDR",
+   "patch": "STHIA02.MDR.bps",
+   "source": {
+    "size": 4921,
+    "crc32": "4edc36a4"
+   },
+   "target": {
+    "size": 18715,
+    "crc32": "1e9e1b16"
+   }
+  },
+  {
+   "path": "IKENIE/STHIA03.MDR",
+   "patch": "STHIA03.MDR.bps",
+   "source": {
+    "size": 5172,
+    "crc32": "316887b8"
+   },
+   "target": {
+    "size": 19437,
+    "crc32": "a1e249e0"
+   }
+  },
+  {
+   "path": "IKENIE/STHIA04.MDR",
+   "patch": "STHIA04.MDR.bps",
+   "source": {
+    "size": 5718,
+    "crc32": "068fbc66"
+   },
+   "target": {
+    "size": 25600,
+    "crc32": "89e2cbe9"
+   }
+  },
+  {
+   "path": "IKENIE/STHIA05.MDR",
+   "patch": "STHIA05.MDR.bps",
+   "source": {
+    "size": 5333,
+    "crc32": "e8e76108"
+   },
+   "target": {
+    "size": 23227,
+    "crc32": "9a523e73"
+   }
+  },
+  {
+   "path": "IKENIE/THIA01.MDR",
+   "patch": "THIA01.MDR.bps",
+   "source": {
+    "size": 5708,
+    "crc32": "52ba9823"
+   },
+   "target": {
+    "size": 14036,
+    "crc32": "e694eb76"
+   }
+  },
+  {
+   "path": "IKENIE/THIA02.MDR",
+   "patch": "THIA02.MDR.bps",
+   "source": {
+    "size": 5503,
+    "crc32": "2611ef88"
+   },
+   "target": {
+    "size": 19871,
+    "crc32": "b5a5eb91"
+   }
+  },
+  {
+   "path": "IKENIE/THIA03.MDR",
+   "patch": "THIA03.MDR.bps",
+   "source": {
+    "size": 5134,
+    "crc32": "9abe17d3"
+   },
+   "target": {
+    "size": 20106,
+    "crc32": "c6d472d8"
+   }
+  },
+  {
+   "path": "IKENIE/THIA04.MDR",
+   "patch": "THIA04.MDR.bps",
+   "source": {
+    "size": 4390,
+    "crc32": "0b37c9f3"
+   },
+   "target": {
+    "size": 15881,
+    "crc32": "5f684ced"
+   }
+  },
+  {
+   "path": "IKENIE/THIA05.MDR",
+   "patch": "THIA05.MDR.bps",
+   "source": {
+    "size": 4816,
+    "crc32": "6c5c59a9"
+   },
+   "target": {
+    "size": 18468,
+    "crc32": "014e6bf3"
+   }
+  },
+  {
+   "path": "IKENIE/THIA06.MDR",
+   "patch": "THIA06.MDR.bps",
+   "source": {
+    "size": 4916,
+    "crc32": "d49b0a6d"
+   },
+   "target": {
+    "size": 18161,
+    "crc32": "eacb2512"
+   }
+  },
+  {
+   "path": "IKENIE/THIA07.MDR",
+   "patch": "THIA07.MDR.bps",
+   "source": {
+    "size": 4765,
+    "crc32": "c152f835"
+   },
+   "target": {
+    "size": 18642,
+    "crc32": "0dfb8ac9"
+   }
+  },
+  {
+   "path": "IKENIE/MAXG.EXE",
+   "patch": "MAXG.EXE.bps",
+   "source": {
+    "size": 30818,
+    "crc32": "4a4f9f3f"
+   },
+   "target": {
+    "size": 73294,
+    "crc32": "e89b8ce7"
+   }
+  }
+ ]
+}
